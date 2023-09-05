@@ -7,6 +7,4 @@
 </template>
 
 <style>
-  .about{
-  }
 </style>
