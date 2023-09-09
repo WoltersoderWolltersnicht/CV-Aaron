@@ -1,0 +1,75 @@
+{
+  "personalData": {
+    "name": "Aaron Sanchez Wolters",
+    "possition": "Software Developer",
+    "about": "I am a 23 year old passionate and dedicated developer with a love for programming, learning new tecnologies and programing lenguages. Deeply enthusiastic about learing and applying design patterns, and programing architectures. Constantly seeking new challenges and projects to overcome."
+  },
+  "contact": {
+    "phone": "+34 644557891",
+    "email": "aaaronwolters@gmail.com",
+    "adress": "Av.del Comte de Sallent, 7 2A, 07003 Palma, Islas Baleares",
+    "languages": "English, Spanish, German, Catalan"
+  },
+  "experiences": [
+    {
+      "companyName": "TravelgateX",
+      "possition": "Backend Developer",
+      "startDate": "March 2021",
+      "endDate": "Present",
+      "description": "-Develop Hotel Integrations.\n Maintain Legacy Integration Hub.\n Migrations of Legacy Monolith to Microservices Architecture.\n Creation of apps, and utilities."
+    }
+  ],
+
+  "educations": [
+    {
+      "title": "Certificate of Higher Education",
+      "school": "EDIP Palma",
+      "startDate": "2019",
+      "endDate": "2021",
+      "description": ""
+    }
+  ],
+
+  "skills": [
+    {
+      "title": "Programing Languages",
+      "elements": [
+        { "name": "C Sharp", "level": 5 },
+        { "name": "Python", "level": 3 },
+        { "name": "Java", "level": 3 },
+        { "name": "Kotlin", "level": 2 },
+        { "name": "JavaScript", "level": 3 },
+        { "name": "HTML", "level": 4 },
+        { "name": "CSS", "level": 2 }
+      ]
+    },
+    {
+      "title": "Databases",
+      "elements": [
+        { "name": "Postgres", "level": 3 },
+        { "name": "MySql", "level": 3 },
+        { "name": "ElasticSearch", "level": 4 },
+        { "name": "MongoDB", "level": 4 },
+        { "name": "Redis", "level": 3 }
+      ]
+    },
+    {
+        "title": "Frameworks",
+        "elements": [
+          { "name": "Asp.Net Core", "level": 5 },
+          { "name": "Entity Framework", "level": 3 },
+          { "name": "Vue.js", "level": 3 },
+          { "name": "Angular", "level": 1 }
+        ]
+      },
+      {
+        "title": "OTHER",
+        "elements": [
+          { "name": "TDD", "level": 4 },
+          { "name": "DDD", "level": 4 },
+          { "name": "Rest Api", "level": 4 },
+          { "name": "GraphQl", "level": 4 }
+        ]
+      }
+  ]
+}
