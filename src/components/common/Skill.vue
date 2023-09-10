@@ -5,7 +5,7 @@
 <template>
   <div class="skill">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <h3 class="skillname">{{skill.name}}</h3>
+  <h4 class="skillname">{{skill.name}}</h4>
   <div class="stars">
     <div v-for="index in 5" :key="index">
       <span v-if="index<=skill.level" class="fa fa-star checked"/>
@@ -18,9 +18,8 @@
 <style>
 
   .skillname{
-    min-width: 20%;
+    min-width: 50%;
     font-weight: 400;
-    font-size: large;
     white-space: nowrap;
   }
 
@@ -36,7 +35,7 @@
   .skill{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .stars{

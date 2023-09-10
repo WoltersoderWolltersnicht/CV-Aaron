@@ -1,6 +1,6 @@
 <script setup>
   import Header from "./components/Header.vue";
-  import Contact from "./components/AboutContact.vue";
+  import ContactInformation from "./components/ContactInformation.vue";
   import Tecnologies from "./components/common/Skill.vue";
   import Experiences from "./components/common/Experience.vue";
   import configuration from './configuration.json'
@@ -11,13 +11,13 @@
   <Header :personalData="configuration.personalData"/>
     
     <div class="box">
-      <Contact :contact="configuration.contact"/>
+      <ContactInformation :contact="configuration.contact"/>
     </div>
     
     <h2 class="app-header"  id="Skills">Skills</h2>
     <div class = "grid" > 
       <div class="skill-group" v-for="(skills) in configuration.skills" :key="(skills)">
-        <h4 class="skill-group-title">{{skills.title}}</h4>
+        <h3 class="skill-group-title">{{skills.title}}</h3>
         <Tecnologies 
         v-for="skill in skills.elements" :key="skill"
         :skill="skill"/>
@@ -52,17 +52,21 @@
     display: flex;
     background-color: #ffffff;
     border-radius: 1%;
-    padding: 1%;
     margin: auto 10%;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px 2%;
+    gap: 20px 5%;
+    padding: 2%;
+    justify-content: space-evenly;
   }
 
    @media (max-width: 500px) {
     
         .grid{
-          justify-content: center;
+          display: block;
+        }
+
+        .skill-group{
+          text-align: center;  
         }
         
     }
@@ -70,7 +74,7 @@
   .skill-group{
     display: flex;
     flex-direction: column;
-    min-width:40%;
+    min-width:50%;
   }
 
   .skill-group-title{

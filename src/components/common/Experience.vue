@@ -6,22 +6,19 @@
     <div class="experience-element">
         <div class="experience-header">
             <h3 class="experience-header">{{header}}</h3>
-            <h3 class="experience-date">{{startDate}} - {{endDate}}</h3>
+            <h4 class="experience-date">{{startDate}} - {{endDate}}</h4>
         </div>
         <div class="experience-body">
             <h3>{{secondHeader}}</h3>
-            <div>{{description}}</div>
+            <p>{{description}}</p>
         </div>
     </div>
 </template>
 
-<style> 
-
-    
+<style>     
     .experience-element{
         display: flex;
     }
-
 
     .experience-header{
         background-color: #378c3f;
@@ -29,9 +26,8 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 3%;
-        font-size: 1,4em;
-        white-space: nowrap;
+        padding: 3% 0;
+        text-align: center;
     }
 
 

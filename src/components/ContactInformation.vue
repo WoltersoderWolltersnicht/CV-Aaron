@@ -7,11 +7,11 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
         <div class="about">
-            <h2>About Me</h2>
-            <div>I am a 23 year old passionate and dedicated developer with a love for programming, learning new tecnologies and programing lenguages. Deeply enthusiastic about learing and applying design patterns, and programing architectures. Constantly seeking new challenges and projects to overcome.</div>
+            <h3>About Me</h3>
+            <p>I am a 23 year old passionate and dedicated developer with a love for programming, learning new tecnologies and programing lenguages. Deeply enthusiastic about learing and applying design patterns, and programing architectures. Constantly seeking new challenges and projects to overcome.</p>
         </div>
         <div class="contact">
-            <h2>Contact</h2>
+            <h3>Contact</h3>
             <div class="contacts">
                 <div>
                     <span class="material-symbols-outlined">call</span>

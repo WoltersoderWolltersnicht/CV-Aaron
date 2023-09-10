@@ -9,7 +9,7 @@
     </div>
     <div class="content">
       <h1>{{personalData.name}}</h1>
-      <h3>{{personalData.possition}}</h3>
+      <h2>{{personalData.possition}}</h2>
     </div>
   </div>
 </template>
@@ -17,24 +17,19 @@
 <style>
   .header{    
     background-color:black; 
-    padding: 0 0 27%;
-    position: relative;
+    display: flex;
+    justify-content: center;
   }
 
   .content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 3%;
   }
 
   .header-img{
     width:25%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10% 0 5% 0;
   }
 </style>

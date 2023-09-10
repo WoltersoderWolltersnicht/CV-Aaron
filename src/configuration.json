@@ -63,7 +63,7 @@
         ]
       },
       {
-        "title": "OTHER",
+        "title": "Other",
         "elements": [
           { "name": "TDD", "level": 4 },
           { "name": "DDD", "level": 4 },
