@@ -3,14 +3,14 @@
 </script>
 
 <template>
-    <div class="about-contact">
+    <div class="bg-dark-background2 rounded-md p-5 flex justify-evenly content-center flex-col sm:flex-row">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
-        <div class="about">
-            <h3>About Me</h3>
+        <div class="about text-dark-fontcolor" >
+            <h3 >About Me</h3>
             <p>I am a 23 year old passionate and dedicated developer with a love for programming, learning new tecnologies and programing lenguages. Deeply enthusiastic about learing and applying design patterns, and programing architectures. Constantly seeking new challenges and projects to overcome.</p>
         </div>
-        <div class="contact">
+        <div class="contact text-dark-fontcolor">
             <h3>Contact</h3>
             <div class="contacts">
                 <div>
@@ -39,14 +39,6 @@
 </template>
 
 <style>
-
-    .about-contact{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-content: center;
-    }
-
     .about{
         width: 40%;
     }
@@ -58,7 +50,7 @@
     .contacts div{
         display:flex;
         flex-direction: row;
-        margin: 3% 2%;
+        margin: 3% 0%;
     }
 
         @media (max-width: 700px) {

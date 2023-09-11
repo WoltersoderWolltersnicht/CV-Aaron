@@ -3,33 +3,9 @@
 </script>
 
 <template>
-  <div>
-    <div class="header">
-      <img class="header-img" src="./../assets/image.png">
+    <div class="bg-dark-header p-5	flex  flex-col justify-center items-center" >
+      <img class="w-64"  src="./../assets/image.png">
+      <h1 class="text-[22px] lg:text-[33px] font-bold dark:text-white">{{personalData.name}}</h1>
+      <h2 class="text-lg text-white">{{personalData.possition}}</h2>
     </div>
-    <div class="content">
-      <h1>{{personalData.name}}</h1>
-      <h2>{{personalData.possition}}</h2>
-    </div>
-  </div>
 </template>
-
-<style>
-  .header{    
-    background-color:black; 
-    display: flex;
-    justify-content: center;
-  }
-
-  .content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3%;
-  }
-
-  .header-img{
-    width:25%;
-    margin: 10% 0 5% 0;
-  }
-</style>
