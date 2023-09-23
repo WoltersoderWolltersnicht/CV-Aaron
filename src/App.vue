@@ -10,14 +10,14 @@ import configuration from './configuration.json'
 <template>
   <Header :personalData="configuration.personalData" />
   
-  <div class="bg-dark-background p-2 md:p-5 lg:px-20	">
+  <div class="bg-dark-background p-2 md:p-5 lg:px-20">
     <ContactInformation :contact="configuration.contact" />
  
-    <h2 class="text-dark-fontcolor text-center mt-10" id="Skills">Skills</h2>
+    <h2 class="text-dark-fontcolor text-center mt-10 font-bold" id="Skills">Skills</h2>
     <Skills :skillsGroups="configuration.skills" />
  
-    <h2 class="text-dark-fontcolor text-center mt-10" id="WorkExperiences">Experiences</h2>
-    <Experiences/>
+    <h2 class="text-dark-fontcolor text-center mt-10 font-bold" id="WorkExperiences">Experiences</h2>
+    <Experiences :experiences="configuration.experiences"/>
   </div>
 </template>
 

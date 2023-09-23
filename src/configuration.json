@@ -11,22 +11,26 @@
     "languages": "English, Spanish, German, Catalan"
   },
   "experiences": [
-    {
-      "companyName": "TravelgateX",
-      "possition": "Backend Developer",
-      "startDate": "March 2021",
-      "endDate": "Present",
-      "description": "-Develop Hotel Integrations.\n Maintain Legacy Integration Hub.\n Migrations of Legacy Monolith to Microservices Architecture.\n Creation of apps, and utilities."
-    }
-  ],
 
-  "educations": [
     {
       "title": "Certificate of Higher Education",
-      "school": "EDIP Palma",
+      "location": "EDIP Palma",
       "startDate": "2019",
       "endDate": "2021",
-      "description": ""
+      "skills": ["..."]
+    },
+
+    {
+      "title": "Backend Developer",
+      "location": "TravelgateX",
+      "startDate": "March 2021",
+      "endDate": "Present",
+      "skills": [
+        "- Develop Hotel Integrations.",
+        "- Maintain Legacy Integration Hub.",
+        "- Migrations of Legacy Monolith to Microservices Architecture.",
+        "- Creation of apps, and utilities."
+      ]
     }
   ],
 
