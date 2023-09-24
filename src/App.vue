@@ -11,7 +11,7 @@ import configuration from './configuration.json'
 <template>
   <NavBar/>
   <Header :personalData="configuration.personalData" />
-  <div class="bg-dark-background px-2 py-4 md:px-5 lg:px-56  xl:px-96">
+  <div class="bg-dark-background px-2 py-4 md:px-5 lg:w-1/2  xl:-w1/3 m-auto">
    <h2 id="Contact" class="scroll-mt-16"></h2>  
     <ContactInformation :contact="configuration.contact" />
  
