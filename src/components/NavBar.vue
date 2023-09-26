@@ -29,31 +29,32 @@ export default {
                         d="M1 1h15M1 7h15M1 13h15" />s
                 </svg>
             </button>
-            <div class="w-full md:block md:w-auto md:mx-auto" :class="[{'hidden': !menuOpen}]" id="navbar-default">
+            <div :class="[{'my-hidden': !menuOpen}]" class="w-full md:!block md:w-auto md:mx-auto" id="navbar-default">
                 <ul
                     class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:border-0 bg-dark-header md:bg-dark-header border-gray-700">
                     <li>
                         <a href="#"
                             @click="openMenu"
-                            class="block py-2 pl-3 pr-4  rounded  md:border-0  md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
+                            class="block py-2 pl-3 pr-4  rounded  md:border-0  md:p-0 text-white md:hover:text-accent-base hover:bg-gray-700 hover:text-accent-base md:hover:bg-transparent"
                             aria-current="page">Me</a>
-                    </li>
-                    <li>
-                        <a href="#Contact"
-                            @click="openMenu"
-                            class="block py-2 pl-3 pr-4  rounded  md:border-0  md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Contact</a>
                     </li>
                     <li>
                         <a href="#Skills"
                             @click="openMenu"
-                            class="block py-2 pl-3 pr-4 rounded  md:border-0  md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Skills</a>
+                            class="block py-2 pl-3 pr-4 rounded  md:border-0  md:p-0 text-white md:hover:text-accent-base hover:bg-gray-700 hover:text-accent-base md:hover:bg-transparent">Skills</a>
                     </li>
                     <li>
                         <a href="#WorkExperiences"
                             @click="openMenu"
-                            class="block py-2 pl-3 pr-4 rounded  md:border-0  md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Experiences</a>
+                            class="block py-2 pl-3 pr-4 rounded  md:border-0  md:p-0 text-white md:hover:text-accent-base hover:bg-gray-700 hover:text-accent-base md:hover:bg-transparent">Experiences</a>
                     </li>
             </ul>
         </div>
     </div>
 </nav></template>
+
+<style>
+.my-hidden{
+    display: none;
+}
+</style>

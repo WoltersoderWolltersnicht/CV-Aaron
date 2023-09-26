@@ -2,14 +2,15 @@
   "personalData": {
     "name": "Aaron Sanchez Wolters",
     "possition": "Software Developer",
-    "about": "I am a 23 year old passionate and dedicated developer with a love for programming, learning new tecnologies and programing lenguages. Deeply enthusiastic about learing and applying design patterns, and programing architectures. Constantly seeking new challenges and projects to overcome."
-  },
-  "contact": {
-    "phone": "+34 644557891",
-    "email": "aaaronwolters@gmail.com",
-    "adress": "Av.del Comte de Sallent, 7 2A, 07003 Palma, Islas Baleares",
-    "languages": "English, Spanish, German, Catalan"
-  },
+    "about": "I am a 23 year old passionate and dedicated developer with a love for programming, learning new tecnologies and programing lenguages. Deeply enthusiastic about learing and applying design patterns, and programing architectures. Constantly seeking new challenges and projects to overcome.",
+    "contact": {
+      "phone": "+34 644557891",
+      "email": "aaaronwolters@gmail.com",
+      "adress": "Av.del Comte de Sallent, 7 2A, 07003 Palma, Islas Baleares",
+      "languages": "English, Spanish, German, Catalan"
+    }
+  }
+  ,
   "experiences": [
 
     {
