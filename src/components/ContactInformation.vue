@@ -16,13 +16,13 @@ defineProps(['contact'])
                 <span class="material-symbols-outlined">mail</span>
                 <p class="ml-2">{{ contact.email }}</p>
             </div>
-            <a href="https://github.com/WoltersoderWolltersnicht">
+            <a class="hover:text-accent-base hover:font-bold " href="https://github.com/WoltersoderWolltersnicht">
                 <div class="flex flex-row mt-3">
                     <img class="w-6 h-6" src="./../assets/github.png" />
                     <p class="ml-2">Github</p>
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/aaron-sanchez-wolters-3683b9223">
+            <a class="hover:text-accent-base hover:font-bold" href="https://www.linkedin.com/in/aaron-sanchez-wolters-3683b9223">
                 <div class="flex flex-row mt-3">
                     <img class="w-6 h-6" src="./../assets/linkedin.png" />
                     <p class="ml-2">LinkedIn</p>
