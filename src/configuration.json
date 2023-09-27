@@ -2,79 +2,120 @@
   "personalData": {
     "name": "Aaron Sanchez Wolters",
     "possition": "Software Developer",
-    "about": "I am a 23 year old passionate and dedicated developer with a love for programming, learning new tecnologies and programing lenguages. Deeply enthusiastic about learing and applying design patterns, and programing architectures. Constantly seeking new challenges and projects to overcome.",
     "contact": {
       "phone": "+34 644557891",
       "email": "aaaronwolters@gmail.com",
-      "adress": "Av.del Comte de Sallent, 7 2A, 07003 Palma, Islas Baleares",
+      "gitlab": "https://github.com/WoltersoderWolltersnicht",
+      "linkedin": "https://www.linkedin.com/in/aaron-sanchez-wolters-3683b9223",
       "languages": "English, Spanish, German, Catalan"
-    }
-  }
-  ,
+    },
+    "about": "I am a 23 year old passionate and dedicated developer with a love for programming, learning new tecnologies and programing lenguages. Deeply enthusiastic about learing and applying design patterns, and programing architectures. Constantly seeking new challenges and projects to overcome."
+  },
   "experiences": [
-
     {
       "title": "Certificate of Higher Education",
       "location": "EDIP Palma",
       "startDate": "2019",
       "endDate": "2021",
-      "skills": ["..."]
+      "skills": [
+        "Programming fundamentals.",
+        "Independent learning",
+        "Development of multiplatform apps using java, kotlin, php, html and css"
+      ]
     },
-
     {
       "title": "Backend Developer",
       "location": "TravelgateX",
       "startDate": "March 2021",
       "endDate": "Present",
       "skills": [
-        "- Develop Hotel Integrations.",
-        "- Maintain Legacy Integration Hub.",
-        "- Migrations of Legacy Monolith to Microservices Architecture.",
-        "- Creation of apps, and utilities."
+        "Usage of clean code, clean architectures, design patterns",
+        "Maintain legacy integration hub.",
+        "Creation of a framework, apps, and utilities to improve integration process in other teams.",
+        "Migration of monolith architecture to microservices architecture."
       ]
     }
   ],
-
   "skills": [
     {
       "title": "Programing Languages",
       "elements": [
-        { "name": "C Sharp", "level": 5 },
-        { "name": "Python", "level": 3 },
-        { "name": "Java", "level": 3 },
-        { "name": "Kotlin", "level": 2 },
-        { "name": "JavaScript", "level": 3 },
-        { "name": "HTML", "level": 4 },
-        { "name": "CSS", "level": 2 }
+        {
+          "name": "C Sharp"
+        },
+        {
+          "name": "Python"
+        },
+        {
+          "name": "Java"
+        },
+        {
+          "name": "Kotlin"
+        },
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        }
       ]
     },
     {
       "title": "Databases",
       "elements": [
-        { "name": "Postgres", "level": 3 },
-        { "name": "MySql", "level": 3 },
-        { "name": "ElasticSearch", "level": 4 },
-        { "name": "MongoDB", "level": 4 },
-        { "name": "Redis", "level": 3 }
+        {
+          "name": "Postgres"
+        },
+        {
+          "name": "MySql"
+        },
+        {
+          "name": "ElasticSearch"
+        },
+        {
+          "name": "MongoDB"
+        },
+        {
+          "name": "Redis"
+        }
       ]
     },
     {
-        "title": "Frameworks",
-        "elements": [
-          { "name": "Asp.Net Core", "level": 5 },
-          { "name": "Entity Framework", "level": 3 },
-          { "name": "Vue.js", "level": 3 },
-          { "name": "Angular", "level": 1 }
-        ]
-      },
-      {
-        "title": "Other",
-        "elements": [
-          { "name": "TDD", "level": 4 },
-          { "name": "DDD", "level": 4 },
-          { "name": "Rest Api", "level": 4 },
-          { "name": "GraphQl", "level": 4 }
-        ]
-      }
+      "title": "Frameworks",
+      "elements": [
+        {
+          "name": "Asp.Net Core"
+        },
+        {
+          "name": "Entity Framework"
+        },
+        {
+          "name": "Vue.js"
+        },
+        {
+          "name": "Angular"
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "elements": [
+        {
+          "name": "TDD"
+        },
+        {
+          "name": "DDD"
+        },
+        {
+          "name": "Rest Api"
+        },
+        {
+          "name": "GraphQl"
+        }
+      ]
+    }
   ]
 }

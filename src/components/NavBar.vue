@@ -8,7 +8,12 @@ export default {
         const openMenu = () => {
             menuOpen.value = !menuOpen.value
         }
-        return { openMenu, menuOpen }
+
+        const selectMenuItem = () => {
+            openMenu()
+            this.$refs.c
+        }
+        return { openMenu, menuOpen, selectMenuItem }
     }
 };
 </script>
@@ -22,16 +27,21 @@ export default {
                 <ul
                     class="font-medium flex flex-col p-4 sm:p-0 border rounded-lg sm:flex-row sm:space-x-8 sm:border-0 bg-dark-header sm:bg-dark-header border-gray-700">
                     <li>
-                        <a href="#" @click="openMenu"
+                        <a href="#" @click="selectMenuItem"
                             class="block py-2 pl-3 pr-4  rounded  sm:border-0  sm:p-0 text-white sm:hover:text-accent-base hover:bg-gray-700 hover:text-accent-base sm:hover:bg-transparent"
                             aria-current="page">Me</a>
                     </li>
                     <li>
-                        <a href="#Skills" @click="openMenu"
+                        <a href="#AboutMe" @click="selectMenuItem"
+                            class="block py-2 pl-3 pr-4  rounded  sm:border-0  sm:p-0 text-white sm:hover:text-accent-base hover:bg-gray-700 hover:text-accent-base sm:hover:bg-transparent"
+                            aria-current="page">About</a>
+                    </li>
+                    <li>
+                        <a href="#Skills" @click="selectMenuItem"
                             class="block py-2 pl-3 pr-4 rounded  sm:border-0  sm:p-0 text-white sm:hover:text-accent-base hover:bg-gray-700 hover:text-accent-base sm:hover:bg-transparent">Skills</a>
                     </li>
                     <li>
-                        <a href="#WorkExperiences" @click="openMenu"
+                        <a href="#WorkExperiences" @click="selectMenuItem"
                             class="block py-2 pl-3 pr-4 rounded  sm:border-0  sm:p-0 text-white sm:hover:text-accent-base hover:bg-gray-700 hover:text-accent-base sm:hover:bg-transparent">Experiences</a>
                     </li>
                 </ul>
