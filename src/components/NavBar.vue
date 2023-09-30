@@ -22,11 +22,13 @@ export default {
 
 <template>
     <nav class="bg-dark-header fixed w-screen h-16">
-        <a href="../assets/CV_AaronSanchezWolters" download="CV_AaronSanchezWolters.pdf" >
-            <button type="button" class="fixed m-4  flex bg-accent-base border border-accent-border font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0" href="../assets/CV_AaronSanchezWolters.pdf" download="CV_AaronSanchezWolters">Download CV</button>
+        <a :href="'/CV_AaronSanchezWolters.pdf'" target="_parent" download="CV_AaronSanchezWolters.pdf">
+            <button type="button"
+                class="fixed m-4  flex bg-accent-base border border-accent-border font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0">Download CV</button>
         </a>
         <div class="max-w-screen-xl flex flex-row justify-end mx-auto p-4 sm:justify-between sm:p-1 h-16">
-            <div :class="[{ 'my-hidden': !menuOpen }]" class="mt-10 sm:!block sm:w-auto sm:mt-0 sm:!visible sm:mx-auto sm:self-center" id="navbar-default">
+            <div :class="[{ 'my-hidden': !menuOpen }]"
+                class="mt-10 sm:!block sm:w-auto sm:mt-0 sm:!visible sm:mx-auto sm:self-center" id="navbar-default">
                 <ul
                     class="font-medium flex flex-col sm:p-0 border rounded-lg sm:flex-row sm:space-x-8 sm:border-0 bg-dark-header sm:bg-dark-header border-gray-700">
                     <li>
@@ -65,6 +67,5 @@ export default {
 
 <style>
 .my-hidden {
-    visibility:hidden;
-}
-</style>
+    visibility: hidden;
+}</style>
